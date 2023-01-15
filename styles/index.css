@@ -255,9 +255,11 @@ service section css
     align-items: center;
     justify-content: center;
     text-align: center;
-    animation: bounceIn 3s .5s 1;
+   
 }
-    
+.service:hover{
+    animation: bounceIn 2s .5s 1;
+}
 .service-count{
     font-weight: 600;
     font-size: 45px;
@@ -414,7 +416,7 @@ Sponsors section css
         align-items: center;
     }
     .service{
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
     .sponsors-logo{
         flex-direction: column;
