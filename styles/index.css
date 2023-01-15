@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans'
+}
+
+/*---------------------
+    common css
+---------------------*/
+
+.btn-primary{
+    background-color: #FF900E;
+    border: none;
+    font-weight: 600;
+    font-size:20px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 15px 20px 15px 20px;
+    border-radius: 5px;
+    margin-top: 32px;
+    margin-bottom:50px;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*---------------------
+   Header css
+---------------------*/
+
+header{
+    background: rgba(255, 144, 14, 0.1);
+}
+nav{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: auto;
+}
+nav h2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+ul li{
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.brand-section{
+    text-align: center; 
+    margin-top: 90px;
+}
+.brand-title{
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    margin-bottom: 15px;
+}
+.brand-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner img{
+    width: 85%;
+    height: 500px;
+    padding-bottom: 30px;
+}
+
+
+/*---------------------
+    main section css
+---------------------*/
+
+.team-section{
+    display: flex;
+    gap: 70px;
+    margin-top: 80px;
+}
+.team-section-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.team-section-description{
+    display: flex;
+    align-items: center;
+}
+.team-section-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+/* span css start*/
+.list{
+    color: #727272;
+}
+.Features{
+    color: #FF900E;
+}
+/* span css end*/
+
+.team-section-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+
+/*-------------------
+  Features section css
+---------------------*/
+.features-section{
+    margin-top: 130px;
+    display: flex;
+    gap: 54px;
+    margin-bottom: 50px;
+    
+}
+.features-section-title{
+    font-weight: 700;
+    font-size: 45px;
+    border-left:5px solid #FF900E;
+    padding-left: 5px;
+}
+.features-section-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+.artical{
+    height: 140px;
+    width: 586px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    padding-right: 50px;
+}
+.arical-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.arical-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    line-height: 26px;
+}
+.features-section-img img{
+    width: 570px;
+    height: 982px;
+}
+.experience{
+    width: 300px;
+    height: 150px;
+    background-color: #FF900E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 90px;
+    right: 100px;
+    border-radius: 8px;
+    
+}
+
+.experience-btn{
+    border: none;
+    background-color: #FF900E;
+    cursor: pointer;
+    border-radius: 5px;
+    padding:10px 0 35px 0px;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.year{
+    font-weight: 700;
+    font-size: 65px;
+    color: white;
+}
+
+/*-------------------
+ 
+our-details-section css
+---------------------*/
+
+.our-details-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+.our-details-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+/*-------------------
+ 
+service section css
+---------------------*/
+.services{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.service{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.service-count{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+.service-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #424242;
+}
+
+/*-------------------
+ 
+Sponsors section css
+---------------------*/
+.sponsors-section{
+    margin-top:150px;
+}
+.sponsors-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.sponsors-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+}
+.sponsors-logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+.sponsors-logo img{
+    width: 166.76px;
+    filter: grayscale(1);
+}
+
+/*-------------------
+    our details section css
+---------------------*/
+.our-detailes{
+    width: 100%;
+    background-color: #131313;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    height: 150px;
+    align-items: center;
+    
+}
+.our-detailes hr{
+    display: none;
+}
+.our-detailes-title{
+    color: #727272;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.icon{
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/*-------------------
+    footer css
+---------------------*/
+.footer{
+    background-color: #FFF4E7;
+    height:90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.footer small{
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
+
+/*-------------------
+    responsive css
+---------------------*/
+
+
+/*-------------------
+    Mobile Media queries
+---------------------*/
+@media screen and (max-width:576px){
+    nav{
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    ul{
+        flex-direction: column;
+        margin-top: 65px;
+        gap: 9px;
+    }
+    .banner img{
+        width: 90%;
+        height: 60%;
+    }
+    .brand-title{
+        font-size: 46px;
+    }
+    nav h2{
+        font-size: 25px;
+    }
+    .team-section{
+        flex-direction: column;
+    }
+    .team-section-img{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+    }
+    .features-section{
+        flex-direction: column;
+    }
+    .artical{
+        width: 90%;
+        padding-right: 0;
+    }
+    .features-section-img img{
+        width: 100%;
+        height: 50%;
+    }
+    .year{
+        font-weight: 700;
+        font-size: 45px;
+        color: white;
+    }
+    .experience{
+        width: 195px;
+        height: 102px;
+        position:relative;
+        bottom: 0px;
+        right: 0px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .experience-btn{
+        padding: 10px 10px 10px 10px ;
+    }
+    .services{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .service{
+        margin-bottom: 10px;
+    }
+    .sponsors-logo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sponsors-logo img{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .our-detailes{
+        flex-direction: column;
+        height: 250px;
+    }
+    .our-detailes hr{
+        display: block;
+        width: 70%;
+    }
+    .footer small{
+        font-size: 16px;
+        text-align: center;
+    }
+}
