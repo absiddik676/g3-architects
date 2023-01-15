@@ -232,6 +232,19 @@ service section css
     justify-content: space-evenly;
     margin-bottom: 100px;
 }
+@keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 
 .service{
     width: 200px;
@@ -242,7 +255,9 @@ service section css
     align-items: center;
     justify-content: center;
     text-align: center;
+    animation: bounceIn 3s .5s 1;
 }
+    
 .service-count{
     font-weight: 600;
     font-size: 45px;
